@@ -36,13 +36,13 @@ _Smart Contract Deployed on **Rinkeby Test Network**_ -> 0xE23f40A669C6A74B1e3de
 1. React.js (Using Vite).
 2. Tailwind CSS (For styling).
 3. ts-particles (for background animations).
-4. ethers.js for Web3 integration.
+4. **ethers.js** for Web3 integration.
 5. Fleek IPFS (For deploying frontend)
 
 ## Blockchain
-1. Solidity (To develop Smart Contract)
+1. **Solidity** (To develop Smart Contract)
 2. Javascript (For deploying scripts)
-3. Chai (For testing Smart Contract)
+3. **Chai** (For testing Smart Contract)
 4. Rinkeby (Test network)
 5. Hardhat
 6. ethers
