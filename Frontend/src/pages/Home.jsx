@@ -26,14 +26,14 @@ export default function Home() {
         setisWeb3Enabled={setisWeb3Enabled}
       />
       {/* <TSParticles />  */}
-      {currentAccount && (
+      {currentAccount ? (
         <>
           <div className="relative z-50 ">
             <AddNoteMain notes={notes} setNotes={setNotes} />
             <GetNotesMain currentAccount={currentAccount} />
           </div>
         </>
-      )}
+      ) : <p className="text-center text-md font-semibold py-1">Connect your wallet to continue. </p>}
     </div>
   );
 }

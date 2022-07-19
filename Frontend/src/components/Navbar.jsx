@@ -11,7 +11,7 @@ export default function Navbar({
   setisWeb3Enabled
 }) {
   return (
-    <div className="flex justify-between items-center py-5 px-5 border-b-2 border-b-slate-300">
+    <div className="flex justify-between items-center py-3 px-5 border-b-[1px] border-b-slate-300">
       <Logo />
       <ConnectWallet
         currentAccount={currentAccount}
