@@ -3,6 +3,8 @@ Complete Full Stack Notes DApp (Decentralized Application) using solidity langua
 
 _Smart Contract Deployed on **Rinkeby Test Network**_ -> 0xE23f40A669C6A74B1e3de431d31fEfB5Efb18849
 
+**Deployed Frontend On Fleek IPFS** -> https://delicate-bread-1272.on.fleek.co/
+
 
 <a href="https://ibb.co/ZKhw4zh"><img src="https://i.ibb.co/Qn6qSv6/Screenshot-122.png" alt="Screenshot-122" border="0"></a>
 
