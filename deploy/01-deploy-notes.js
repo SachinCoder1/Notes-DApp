@@ -17,11 +17,11 @@ module.exports = async ({getNamedAccounts, deployments}) => {
 
     if(!developmentChains.includes(network.name) && process.env.ETHERSCAN_API_KEY){
         log("Verifying-----------------------------------------");
-        await verify(notes.address, arguments);
+        await verify(notes.address);
 
     }
 
-    log("Deployment Done --------------------------------------------------")
+    log("Deployment Done --------------------------------------------------", "Contract address is : ", notes.address)
 
 }
 
